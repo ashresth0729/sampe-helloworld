@@ -1,8 +1,9 @@
 pipeline {
-  node node 
-    stages{
-      stage('build'){
-        echo 'job is working' 
-        }
+  node none
+  stages{
+    stage('build'){
+      steps{
+        echo " the job is runing"
       }
     }
+  }
